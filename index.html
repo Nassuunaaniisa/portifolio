@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nassuuna Aniisa - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        <!-- Added checkbox for CSS-only popup -->
+        <input type="checkbox" id="image-popup" class="popup-checkbox">
+        
+        <!-- Hero Section -->
+        <section id="hero" class="profile-photo-section">
+            <div class="hero-container">
+                <div class="profile-box">
+                    <h1>Nassuuna Aniisa</h1>
+                    <h2>Student Number: 2300724410 - 23/U/24410/Eve - BLIS Student at COCIS</h2>
+                    
+                    <div class="photo-container">
+                        
+                            
+                            <img src="ani.jpg" alt="Nassuuna Aniisa" class="passport-photo">
+                        </label>
+                    </div>
+
+                    <nav class="main-nav">
+                        <a href="#schools" class="nav-link"><i class="bx bx-book"></i> Schools</a>
+                        <a href="#hobbies" class="nav-link"><i class="bx bx-heart"></i> Hobbies</a>
+                        <a href="#experience" class="nav-link"><i class="bx bx-briefcase"></i> Experience</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popup Modal -->
+        <div class="popup-overlay">
+            <div class="popup-content">
+                <label for="image-popup" class="popup-close">×</label>
+                <img src="ani.jpg" alt="Nassuuna Aniisa" class="popup-image">
+            </div>
+        </div>
+
+        <!-- Schools Section -->
+        <section id="schools" class="schools-section">
+            <div class="container">
+                <div class="section-box">
+                    <h2 class="section-title">Schools Attended</h2>
+                    <div class="schools-grid">
+                        <div class="school-card">
+                            <i class="bx bxs-graduation"></i>
+                            <div class="school-name">Kyebando UMEA Primary School</div>
+                            <div class="school-level">2015</div>
+                        </div>
+                        <div class="school-card">
+                            <i class="bx bxs-school"></i>
+                            <div class="school-name">Kampala City School</div>
+                            <div class="school-level">2019 - O Level</div>
+                        </div>
+                        <div class="school-card">
+                            <i class="bx bxs-school"></i>
+                            <div class="school-name">Kampala City School</div>
+                            <div class="school-level">2022 - A Level</div>
+                        </div>
+                        <div class="school-card">
+                            <i class="bx bxs-bank"></i>
+                            <div class="school-name">Makerere University</div>
+                            <div class="school-level">2023 - Currently Attending</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="hobbies-section">
+            <div class="container">
+                <div class="section-box">
+                    <h2 class="section-title">Hobbies</h2>
+                    <div class="hobbies-grid">
+                        <div class="hobby-item">
+                            <i class="bx bxs-headphone"></i>
+                            <h3>Listening to Music</h3>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="bx bxs-book"></i>
+                            <h3>Reading</h3>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="bx bxs-tv"></i>
+                            <h3>Watching Football</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-box">
+                    <h2 class="section-title">Work Experience</h2>
+                    <div class="experience-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="bx bxs-briefcase"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Library Assistant</h3>
+                                <p class="company">Field Attachment</p>
+                                <p>In my work experience as a Library Assistant during my field attachment, I was involved in cataloguing, circulation services, and helping users access electronic resources such as computers. I learned how to manage information systems and deliver user-centered services efficiently. This experience improved my communication, ICT, and organizational skills, which are essential for modern librarianship.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Nassuuna Aniisa. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</body>
+</html>
